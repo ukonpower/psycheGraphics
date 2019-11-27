@@ -28,8 +28,11 @@
     "webpack-stream": "^5.2.1"
   },
   "dependencies": {
+    "@types/dat.gui": "^0.7.5",
+    "dat.gui": "^0.7.6",
     "ore-three-ts": "^0.3.8",
     "three": "^0.109.0",
-    "three-gltf-loader": "^1.109.0"
+    "three-gltf-loader": "^1.109.0",
+    "tweakpane": "^1.2.0"
   }
 }

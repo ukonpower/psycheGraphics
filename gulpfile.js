@@ -60,6 +60,7 @@ gulp.task('browser-sync',function(){
             baseDir: 'docs/' + options.dev,
             index: 'index.html'
         },
+        notify: false,
         open: true
     });
 });
