@@ -29,3 +29,16 @@ html,body{
 	width: 100%;
 	height: 100%;
 }
+
+.back{
+    font-family: 'Comfortaa', sans-serif;
+    position: absolute;
+    left: 5%;
+    top: 30px;
+    text-decoration: none;
+    color: white;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 5px 15px;
+	border-radius: 5px;
+	z-index: 99;
+}

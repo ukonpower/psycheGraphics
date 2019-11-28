@@ -5,10 +5,73 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Psychedelic Graphics</title>
 </head>
+
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+
+	body{
+		background-color: #222;
+		width: 100%;
+	}
+	ul{
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		width: 90%;
+		margin: 0 auto;
+		list-style: none;
+	}
+
+	li{
+		margin: 0 20px;
+	}
+
+	a{
+		position: relative;
+		display: block;
+		width: 400px;
+		height: 250px;
+		margin: 20px 0;
+		border-radius: 10px;
+		overflow: hidden;
+	}
+
+	img{
+		position: relative;
+		display: block;
+		object-fit: cover;
+		width: 100%;
+	}
+
+	p{
+		position: absolute;
+		width: 100%;
+		left: 0; bottom: 0;
+		text-align: center;
+		color: #ddd;
+		font-size: 15px;
+		padding: 5px 0;
+		background-color: rgba( 0, 0, 0, 0.7);
+	}
+
+</style>
+
 <body>
 	<ul>
 		<li>
-			<a href="./1/">1</a>
+			<a href="./1/">
+				<img src="./assets/img/1.png" alt="">
+				<p>1</p>
+			</a>
+		</li>
+		<li>
+			<a href="./2/">
+				<img src="./assets/img/2.png" alt="">
+				<p>2</p>
+			</a>
 		</li>
 	</ul>
 </body>
