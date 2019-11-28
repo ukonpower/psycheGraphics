@@ -46,18 +46,12 @@ export class GLSL extends THREE.Mesh{
 	
 		this.PARAMS = {
 			offset: Math.PI,
-			wave: 0,
 		}
 		
 		this.pane = new Tweakpane();
 		this.pane.addInput( this.PARAMS, 'offset',{
 			min: 0,
 			max: Math.PI * 2
-		});
-
-		this.pane.addInput( this.PARAMS, 'wave',{
-			min: 0,
-			max: 1.0
 		});
 		
 	}
