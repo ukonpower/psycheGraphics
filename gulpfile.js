@@ -66,7 +66,7 @@ gulp.task('browser-sync',function(){
     });
 });
 
-gulp.task('reload',function(){
+gulp.task('reload',function(){      
     browserSync.reload();
 })
 
